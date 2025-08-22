@@ -1,6 +1,7 @@
+import './ItemListContainer.css';
 const ItemListContainer = ({ greeting }) => {
   return (
-    <section style={{ padding: '2rem', textAlign: 'center' }}>
+    <section>
       <h2>{greeting}</h2>
       {/* Aquí puedes agregar la lista de productos en el futuro */}
     </section>
